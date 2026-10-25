@@ -1,0 +1,48 @@
+{
+  "paper_reference": "Joint Routing and Wireless Charging Scheduling for Electric Vehicles with Shuttle Services",
+  "simulation_region_km": [
+    60,
+    60
+  ],
+  "battery_capacity_kWh": 30.0,
+  "max_mileage_km": 260.0,
+  "charging_amounts_kWh": [
+    5.0,
+    15.0,
+    20.0
+  ],
+  "charging_efficiency": 0.9,
+  "epsilon": [
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ],
+  "big_M": 1000,
+  "dynamic_charging_price_range_per_kWh": [
+    0.5,
+    1.0
+  ],
+  "dynamic_price_reference": "synthetic time-of-use schedule matching paper's reported range",
+  "algorithms": [
+    "RCBD",
+    "IRCBD",
+    "actor_critic"
+  ],
+  "scenarios": [
+    30,
+    100,
+    200,
+    300
+  ],
+  "network_nodes": 602,
+  "network_edges_undirected": 1816,
+  "network_edges_directed": 3632,
+  "vehicle_count": 10,
+  "request_count_max": 300,
+  "notes": [
+    "Synthetic dataset generated to match all explicit numerical settings in the paper.",
+    "Road network is k-nearest-neighbor connected in a 60x60 km region.",
+    "Pickups and deliveries are represented by unique node pairs.",
+    "Charging is enabled at all pickup and delivery nodes, plus start/end nodes."
+  ]
+}

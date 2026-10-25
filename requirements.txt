@@ -1,0 +1,5 @@
+highspy==1.15.1
+numpy==2.0.2
+pytest==8.4.2
+psutil==7.0.0; sys_platform == "win32"
+pywin32==311; sys_platform == "win32"

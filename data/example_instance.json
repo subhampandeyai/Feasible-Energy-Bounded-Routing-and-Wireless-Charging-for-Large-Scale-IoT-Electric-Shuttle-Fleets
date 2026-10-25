@@ -1,0 +1,10 @@
+{
+  "instance_name": "example_30_requests",
+  "start_node_id": 0,
+  "end_node_id": 1,
+  "request_file": "requests_30.csv",
+  "vehicle_file": "vehicles.csv",
+  "distance_matrix_file": "distance_matrix.csv",
+  "charging_stations_file": "charging_stations.csv",
+  "price_schedule_file": "price_schedule.csv"
+}

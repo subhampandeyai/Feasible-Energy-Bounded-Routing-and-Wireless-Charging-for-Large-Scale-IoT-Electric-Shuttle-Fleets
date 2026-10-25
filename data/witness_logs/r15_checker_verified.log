@@ -1,0 +1,104 @@
+R=15 step: 10 vehicles, 15 requests, 602 nodes (full graph, unchanged)
+request ids: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+2026-07-24 16:50:14,935 ensemble: 10 vehicles, 1 distinct type(s), 15 requests
+2026-07-24 16:50:31,529 solved cg_master: status=Optimal time=0.001s gap=inf dual_bound=0.0 timed_out=False
+2026-07-24 16:50:31,550 solved cg_master_mip: status=Optimal time=0.018s gap=0.0 dual_bound=10127.283541833029 timed_out=False
+2026-07-24 16:50:31,552 cg_master_mip: 10 request(s) not covered by any selected real route in the EXACT (integer) final master solution: [2, 3, 4, 6, 7, 10, 11, 12, 13, 14]
+2026-07-24 16:50:31,553 ensemble round 0: admm_primal=infeasible cg_primal=10127.2835 winner=cg (admm infeasible) best=10127.2835 unserved=10 pool=105 (+80) x_seq=11.52s x_par=5.04s cg_wall=0.005s bound=N/A
+2026-07-24 16:50:54,445 solved cg_master: status=Optimal time=0.001s gap=inf dual_bound=0.0 timed_out=False
+2026-07-24 16:50:54,461 solved cg_master_mip: status=Optimal time=0.013s gap=0.0 dual_bound=8127.487972459422 timed_out=False
+2026-07-24 16:50:54,462 cg_master_mip: 8 request(s) not covered by any selected real route in the EXACT (integer) final master solution: [2, 4, 6, 7, 10, 11, 12, 13]
+2026-07-24 16:50:54,462 ensemble round 1: admm_primal=infeasible cg_primal=8127.4880 winner=cg (admm infeasible) best=8127.4880 unserved=8 pool=195 (+90) x_seq=17.46s x_par=5.43s cg_wall=0.004s bound=N/A
+2026-07-24 16:51:11,852 solved cg_master: status=Optimal time=0.003s gap=inf dual_bound=0.0 timed_out=False
+2026-07-24 16:51:11,874 solved cg_master_mip: status=Optimal time=0.016s gap=0.0 dual_bound=8127.487972459422 timed_out=False
+2026-07-24 16:51:11,875 cg_master_mip: 8 request(s) not covered by any selected real route in the EXACT (integer) final master solution: [2, 4, 6, 7, 10, 11, 12, 13]
+2026-07-24 16:51:11,875 ensemble round 2: admm_primal=infeasible cg_primal=8124.4438 winner=cg (admm infeasible) best=8127.4880 unserved=8 pool=295 (+100) x_seq=11.98s x_par=5.40s cg_wall=0.010s bound=N/A
+2026-07-24 16:51:29,803 solved cg_master: status=Optimal time=0.004s gap=inf dual_bound=0.0 timed_out=False
+2026-07-24 16:51:29,822 solved cg_master_mip: status=Optimal time=0.017s gap=0.0 dual_bound=5184.34799584087 timed_out=False
+2026-07-24 16:51:29,822 cg_master_mip: 5 request(s) not covered by any selected real route in the EXACT (integer) final master solution: [2, 6, 10, 11, 12]
+2026-07-24 16:51:29,822 ensemble round 3: admm_primal=infeasible cg_primal=5181.3038 winner=cg (admm infeasible) best=5184.3480 unserved=5 pool=375 (+80) x_seq=12.32s x_par=5.60s cg_wall=0.010s bound=N/A
+2026-07-24 16:51:47,554 solved cg_master: status=Optimal time=0.002s gap=inf dual_bound=0.0 timed_out=False
+2026-07-24 16:51:47,559 ensemble round 4: master objective did not improve (cg_primal=5181.3038) - escalating group (0, 1, 30.0, 30.0, 0.11538461538461539) from label_budget=100000 to 200000
+2026-07-24 16:51:47,581 solved cg_master_mip: status=Optimal time=0.019s gap=0.0 dual_bound=5184.34799584087 timed_out=False
+2026-07-24 16:51:47,582 cg_master_mip: 5 request(s) not covered by any selected real route in the EXACT (integer) final master solution: [2, 6, 10, 11, 12]
+2026-07-24 16:51:47,588 solved cg_master: status=Optimal time=0.003s gap=inf dual_bound=0.0 timed_out=False
+2026-07-24 16:52:18,445 ensemble round 4: admm_primal=infeasible cg_primal=5181.3038 winner=cg (admm infeasible) best=5184.3480 unserved=5 pool=445 (+70) x_seq=12.21s x_par=5.52s cg_wall=0.009s bound=N/A
+2026-07-24 16:53:09,510 solved cg_master: status=Optimal time=0.006s gap=inf dual_bound=0.0 timed_out=False
+2026-07-24 16:53:09,587 solved cg_master_mip: status=Optimal time=0.058s gap=0.0 dual_bound=2252.2363792491574 timed_out=False
+2026-07-24 16:53:09,587 cg_master_mip: 2 request(s) not covered by any selected real route in the EXACT (integer) final master solution: [10, 11]
+2026-07-24 16:53:09,589 ensemble round 5: admm_primal=infeasible cg_primal=2249.1922 winner=cg (admm infeasible) best=2252.2364 unserved=2 pool=545 (+100) x_seq=36.65s x_par=14.40s cg_wall=0.021s bound=N/A
+2026-07-24 16:54:09,641 solved cg_master: status=Optimal time=0.006s gap=inf dual_bound=0.0 timed_out=False
+2026-07-24 16:54:09,656 ensemble round 6: master objective did not improve (cg_primal=2249.1922) - escalating group (0, 1, 30.0, 30.0, 0.11538461538461539) from label_budget=200000 to 400000
+2026-07-24 16:54:09,696 solved cg_master_mip: status=Optimal time=0.033s gap=0.0 dual_bound=2252.2363792491574 timed_out=False
+2026-07-24 16:54:09,697 cg_master_mip: 2 request(s) not covered by any selected real route in the EXACT (integer) final master solution: [10, 11]
+2026-07-24 16:54:09,699 ensemble round 6: admm_primal=infeasible cg_primal=2249.1922 winner=cg (admm infeasible) best=2252.2364 unserved=2 pool=635 (+90) x_seq=41.13s x_par=18.90s cg_wall=0.027s bound=N/A
+2026-07-24 16:56:09,720 solved cg_master: status=Optimal time=0.006s gap=inf dual_bound=0.0 timed_out=False
+2026-07-24 16:56:09,807 solved cg_master_mip: status=Optimal time=0.068s gap=0.0 dual_bound=2234.331596116079 timed_out=False
+2026-07-24 16:56:09,808 cg_master_mip: 2 request(s) not covered by any selected real route in the EXACT (integer) final master solution: [10, 11]
+2026-07-24 16:56:09,809 ensemble round 7: admm_primal=infeasible cg_primal=2231.2874 winner=cg (admm infeasible) best=2234.3316 unserved=2 pool=735 (+100) x_seq=87.68s x_par=32.33s cg_wall=0.024s bound=N/A
+2026-07-24 16:57:51,889 solved cg_master: status=Optimal time=0.004s gap=inf dual_bound=0.0 timed_out=False
+2026-07-24 16:57:51,889 ensemble round 8: master objective did not improve (cg_primal=2231.2874) - escalating group (0, 1, 30.0, 30.0, 0.11538461538461539) from label_budget=400000 to 800000
+2026-07-24 16:57:51,937 solved cg_master_mip: status=Optimal time=0.037s gap=0.0 dual_bound=2234.331596116079 timed_out=False
+2026-07-24 16:57:51,937 cg_master_mip: 2 request(s) not covered by any selected real route in the EXACT (integer) final master solution: [10, 11]
+2026-07-24 16:57:51,946 ensemble round 8: admm_primal=infeasible cg_primal=2231.2874 winner=cg (admm infeasible) best=2234.3316 unserved=2 pool=815 (+80) x_seq=78.65s x_par=23.43s cg_wall=0.000s bound=N/A
+2026-07-24 17:00:54,451 solved cg_master: status=Optimal time=0.004s gap=inf dual_bound=0.0 timed_out=False
+2026-07-24 17:00:54,503 solved cg_master_mip: status=Optimal time=0.035s gap=0.0 dual_bound=1237.0016867142544 timed_out=False
+2026-07-24 17:00:54,504 cg_master_mip: 1 request(s) not covered by any selected real route in the EXACT (integer) final master solution: [11]
+2026-07-24 17:00:54,520 solved cg_master: status=Optimal time=0.006s gap=inf dual_bound=0.0 timed_out=False
+2026-07-24 17:01:25,377 ensemble round 9: admm_primal=infeasible cg_primal=1237.0017 winner=cg (admm infeasible) best=1237.0017 unserved=1 pool=905 (+90) x_seq=132.39s x_par=50.10s cg_wall=0.020s bound=N/A
+2026-07-24 17:04:33,663 solved cg_master: status=Optimal time=0.008s gap=inf dual_bound=0.0 timed_out=False
+2026-07-24 17:04:33,727 solved cg_master_mip: status=Optimal time=0.034s gap=0.0 dual_bound=1232.6897298254182 timed_out=False
+2026-07-24 17:04:33,727 cg_master_mip: 1 request(s) not covered by any selected real route in the EXACT (integer) final master solution: [11]
+2026-07-24 17:04:33,730 ensemble round 10: admm_primal=infeasible cg_primal=1232.6897 winner=cg (admm infeasible) best=1232.6897 unserved=1 pool=995 (+90) x_seq=135.39s x_par=52.88s cg_wall=0.032s bound=N/A
+2026-07-24 17:07:27,711 solved cg_master: status=Optimal time=0.009s gap=inf dual_bound=0.0 timed_out=False
+2026-07-24 17:07:27,759 solved cg_master_mip: status=Optimal time=0.026s gap=0.0 dual_bound=1231.156272282909 timed_out=False
+2026-07-24 17:07:27,759 cg_master_mip: 1 request(s) not covered by any selected real route in the EXACT (integer) final master solution: [11]
+2026-07-24 17:07:27,759 ensemble round 11: admm_primal=infeasible cg_primal=1231.1563 winner=cg (admm infeasible) best=1231.1563 unserved=1 pool=1085 (+90) x_seq=128.57s x_par=45.39s cg_wall=0.032s bound=N/A
+2026-07-24 17:10:15,074 solved cg_master: status=Optimal time=0.007s gap=inf dual_bound=0.0 timed_out=False
+2026-07-24 17:10:15,090 ensemble round 12: master objective did not improve (cg_primal=1231.1563) - escalating group (0, 1, 30.0, 30.0, 0.11538461538461539) from label_budget=800000 to 1600000
+2026-07-24 17:10:15,090 ensemble round 12: admm_primal=infeasible cg_primal=1231.1563 winner=cg (admm infeasible) best=1231.1563 unserved=1 pool=1175 (+90) x_seq=118.20s x_par=49.11s cg_wall=0.023s bound=N/A
+2026-07-24 17:15:37,609 solved cg_master: status=Optimal time=0.006s gap=inf dual_bound=0.0 timed_out=False
+2026-07-24 17:15:37,657 solved cg_master_mip: status=Optimal time=0.033s gap=0.0 dual_bound=1216.690414233188 timed_out=False
+2026-07-24 17:15:37,665 cg_master_mip: 1 request(s) not covered by any selected real route in the EXACT (integer) final master solution: [11]
+2026-07-24 17:15:37,665 ensemble round 13: admm_primal=infeasible cg_primal=1216.6904 winner=cg (admm infeasible) best=1216.6904 unserved=1 pool=1265 (+90) x_seq=262.32s x_par=60.19s cg_wall=0.026s bound=N/A
+2026-07-24 17:20:50,532 solved cg_master: status=Optimal time=0.006s gap=inf dual_bound=0.0 timed_out=False
+2026-07-24 17:20:50,533 ensemble round 14: master objective did not improve (cg_primal=1216.6904) - escalating group (0, 1, 30.0, 30.0, 0.11538461538461539) from label_budget=1600000 to 3200000
+2026-07-24 17:20:50,549 solved cg_master: status=Optimal time=0.006s gap=inf dual_bound=0.0 timed_out=False
+2026-07-24 17:21:21,251 ensemble round 14: admm_primal=infeasible cg_primal=1216.6904 winner=cg (admm infeasible) best=1216.6904 unserved=1 pool=1355 (+90) x_seq=249.41s x_par=63.44s cg_wall=0.012s bound=N/A
+2026-07-24 17:27:33,208 solved cg_master: status=Optimal time=0.007s gap=inf dual_bound=0.0 timed_out=False
+2026-07-24 17:27:33,225 ensemble round 15: master objective did not improve (cg_primal=1216.6904) - escalating group (0, 1, 30.0, 30.0, 0.11538461538461539) from label_budget=3200000 to 5000000
+2026-07-24 17:27:33,225 ensemble round 15: admm_primal=infeasible cg_primal=1216.6904 winner=cg (admm infeasible) best=1216.6904 unserved=1 pool=1435 (+80) x_seq=308.31s x_par=63.62s cg_wall=0.029s bound=N/A
+2026-07-24 17:33:44,900 solved cg_master: status=Optimal time=0.011s gap=inf dual_bound=0.0 timed_out=False
+2026-07-24 17:33:44,922 ensemble round 16: admm_primal=infeasible cg_primal=1216.6904 winner=cg (admm infeasible) best=1216.6904 unserved=1 pool=1515 (+80) x_seq=308.83s x_par=62.82s cg_wall=0.046s bound=N/A
+2026-07-24 17:33:44,922 ensemble: wall budget 2400.0s exceeded after 17 rounds
+2026-07-24 17:33:44,970 solved cg_master_mip: status=Optimal time=0.036s gap=0.0 dual_bound=1216.690414233188 timed_out=False
+2026-07-24 17:33:44,970 cg_master_mip: 1 request(s) not covered by any selected real route in the EXACT (integer) final master solution: [11]
+
+=== R=15 ENSEMBLE'S OWN BOOKKEEPING (NOT TRUSTED, for reference only) ===
+best_primal=1216.6904 source=cg (admm infeasible) rounds=18 stop_reason=wall_budget_exceeded wall=2610.04s
+ensemble's own unserved=(11,) (count=1)
+pool_size=1515
+final_valid_dual_bound=-inf gap=None
+
+per-vehicle selected route:
+  veh_1: served=() cost=7.4724 arcs=0
+  veh_2: served=() cost=7.4724 arcs=0
+  veh_3: served=() cost=7.4724 arcs=0
+  veh_4: served=(10, 13) cost=36.2717 arcs=42
+  veh_5: served=(6, 7, 15) cost=33.5158 arcs=38
+  veh_6: served=(4,) cost=26.9976 arcs=27
+  veh_7: served=(1, 2, 3) cost=31.4124 arcs=35
+  veh_8: served=(5, 8, 14) cost=25.3498 arcs=31
+  veh_9: served=(9, 12) cost=33.2535 arcs=35
+  veh_10: served=() cost=7.4724 arcs=0
+
+=== CHECKER-VERIFIED RESULT (the only trusted number) ===
+CHECKER_OUTPUT: FEASIBILITY: FAIL
+  VIOLATION: request 11 is served by NO vehicle (must be exactly once)
+  skipped: time windows: no request carries a time_window (null in Dataset/) - not checked
+  skipped: max ride time: no request carries max_ride_time (null in Dataset/) - not checked
+checker_derived_coverage: 14/15
+checker_derived_unserved: [11]
+vehicles_with_no_route: []
+wall_time_s: 2610.04
+CHECKER_PASS_FAIL: FAIL

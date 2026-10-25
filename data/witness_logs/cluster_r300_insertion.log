@@ -1,0 +1,187 @@
+﻿Loading R=300...
+vehicles=10 requests=300 nodes=602 arcs=3632
+loaded precomputed solo: 247 feasible, infeasible=[2, 3, 11, 24, 33, 34, 41, 54, 57, 58, 70, 72, 76, 80, 81, 86, 102, 114, 122, 123, 127, 131, 135, 141, 155, 165, 166, 174, 179, 181, 182, 188, 189, 194, 198, 206, 209, 214, 215, 224, 225, 232, 235, 245, 255, 258, 260, 265, 266, 269, 271, 278, 300], undetermined=[]
+2026-07-25 10:19:19,410 cluster_route: solo scan done: 247 feasible, 53 proven-infeasible=[2, 3, 11, 24, 33, 34, 41, 54, 57, 58, 70, 72, 76, 80, 81, 86, 102, 114, 122, 123, 127, 131, 135, 141, 155, 165, 166, 174, 179, 181, 182, 188, 189, 194, 198, 206, 209, 214, 215, 224, 225, 232, 235, 245, 255, 258, 260, 265, 266, 269, 271, 278, 300], 0 undetermined=[]
+2026-07-25 10:19:19,476 cluster_route: 247 placeable requests -> cluster sizes [25, 25, 25, 25, 25, 25, 22, 25, 25, 25] (engine=insertion)
+2026-07-25 10:19:22,163 cluster_route: veh_1 insertion-routed cluster of 25 -> served=10 [4, 32, 42, 62, 177, 178, 191, 192, 294, 299], dropped=[8, 14, 61, 66, 67, 91, 93, 96, 128, 137, 171, 216, 242, 274, 298]
+2026-07-25 10:19:25,233 cluster_route: veh_2 insertion-routed cluster of 25 -> served=10 [27, 44, 63, 108, 140, 176, 190, 229, 256, 263], dropped=[19, 21, 30, 83, 84, 133, 156, 170, 202, 204, 218, 231, 238, 281, 283]
+2026-07-25 10:19:28,319 cluster_route: veh_3 insertion-routed cluster of 25 -> served=10 [39, 89, 94, 111, 180, 212, 236, 251, 264, 290], dropped=[6, 7, 22, 25, 50, 53, 107, 121, 143, 157, 168, 207, 213, 233, 244]
+2026-07-25 10:19:31,422 cluster_route: veh_4 insertion-routed cluster of 25 -> served=10 [20, 45, 112, 163, 193, 199, 246, 254, 272, 280], dropped=[10, 13, 29, 36, 43, 75, 90, 139, 148, 158, 160, 234, 252, 267, 273]
+2026-07-25 10:19:34,292 cluster_route: veh_5 insertion-routed cluster of 25 -> served=7 [51, 101, 105, 124, 136, 277, 292], dropped=[9, 23, 37, 49, 59, 77, 100, 126, 149, 152, 153, 161, 164, 196, 222, 243, 262, 297]
+2026-07-25 10:19:37,497 cluster_route: veh_6 insertion-routed cluster of 25 -> served=12 [17, 68, 71, 97, 130, 144, 220, 227, 239, 249, 250, 285], dropped=[5, 31, 46, 142, 146, 150, 186, 219, 241, 257, 282, 286, 287]
+2026-07-25 10:19:40,566 cluster_route: veh_7 insertion-routed cluster of 22 -> served=9 [38, 56, 85, 159, 197, 248, 259, 288, 296], dropped=[48, 64, 82, 88, 95, 99, 106, 145, 169, 203, 240, 253, 293]
+2026-07-25 10:19:43,773 cluster_route: veh_8 insertion-routed cluster of 25 -> served=11 [47, 73, 87, 110, 113, 125, 173, 217, 228, 268, 284], dropped=[16, 18, 60, 69, 115, 117, 132, 138, 183, 185, 201, 221, 223, 270]
+2026-07-25 10:19:45,771 cluster_route: veh_9 insertion-routed cluster of 25 -> served=10 [1, 40, 79, 116, 129, 134, 147, 210, 230, 276], dropped=[15, 26, 52, 65, 92, 109, 120, 172, 184, 195, 208, 226, 247, 291, 295]
+2026-07-25 10:19:48,388 cluster_route: veh_10 insertion-routed cluster of 25 -> served=10 [28, 78, 118, 154, 162, 167, 175, 200, 237, 275], dropped=[12, 35, 55, 74, 98, 103, 104, 119, 151, 187, 205, 211, 261, 279, 289]
+2026-07-25 10:19:48,609 cluster_route: reinsert pass 0 placed req 8 into veh_2 (now serves 11)
+2026-07-25 10:19:48,643 cluster_route: reinsert pass 0 placed req 14 into veh_6 (now serves 13)
+2026-07-25 10:19:48,877 cluster_route: reinsert pass 0 placed req 61 into veh_9 (now serves 11)
+2026-07-25 10:19:49,026 cluster_route: reinsert pass 0 placed req 66 into veh_9 (now serves 12)
+2026-07-25 10:19:49,126 cluster_route: reinsert pass 0 placed req 67 into veh_8 (now serves 12)
+2026-07-25 10:19:49,346 cluster_route: reinsert pass 0 placed req 91 into veh_4 (now serves 11)
+2026-07-25 10:19:49,409 cluster_route: reinsert pass 0 placed req 93 into veh_8 (now serves 13)
+2026-07-25 10:19:49,626 cluster_route: reinsert pass 0 placed req 96 into veh_6 (now serves 14)
+2026-07-25 10:19:49,759 cluster_route: reinsert pass 0 placed req 128 into veh_2 (now serves 12)
+2026-07-25 10:19:49,947 cluster_route: reinsert pass 0 placed req 137 into veh_4 (now serves 12)
+2026-07-25 10:19:50,094 cluster_route: reinsert pass 0 placed req 171 into veh_9 (now serves 13)
+2026-07-25 10:19:50,244 cluster_route: reinsert pass 0 placed req 216 into veh_7 (now serves 10)
+2026-07-25 10:19:50,427 cluster_route: reinsert pass 0 placed req 242 into veh_4 (now serves 13)
+2026-07-25 10:19:50,544 cluster_route: reinsert pass 0 placed req 274 into veh_8 (now serves 14)
+2026-07-25 10:19:50,711 cluster_route: reinsert pass 0 placed req 298 into veh_4 (now serves 14)
+2026-07-25 10:19:50,829 cluster_route: reinsert pass 0 placed req 19 into veh_9 (now serves 14)
+2026-07-25 10:19:50,893 cluster_route: reinsert pass 0 placed req 21 into veh_6 (now serves 15)
+2026-07-25 10:19:50,944 cluster_route: reinsert pass 0 placed req 30 into veh_1 (now serves 11)
+2026-07-25 10:19:50,977 cluster_route: reinsert pass 0 placed req 83 into veh_8 (now serves 15)
+2026-07-25 10:19:51,132 cluster_route: reinsert pass 0 placed req 84 into veh_9 (now serves 15)
+2026-07-25 10:19:51,222 cluster_route: reinsert pass 0 placed req 133 into veh_6 (now serves 16)
+2026-07-25 10:19:51,411 cluster_route: reinsert pass 0 placed req 156 into veh_4 (now serves 15)
+2026-07-25 10:19:51,501 cluster_route: reinsert pass 0 placed req 170 into veh_1 (now serves 12)
+2026-07-25 10:19:51,545 cluster_route: reinsert pass 0 placed req 202 into veh_9 (now serves 16)
+2026-07-25 10:19:51,711 cluster_route: reinsert pass 0 placed req 204 into veh_7 (now serves 11)
+2026-07-25 10:19:52,062 cluster_route: reinsert pass 0 placed req 218 into veh_3 (now serves 11)
+2026-07-25 10:19:52,100 cluster_route: reinsert pass 0 placed req 231 into veh_8 (now serves 16)
+2026-07-25 10:19:52,128 cluster_route: reinsert pass 0 placed req 238 into veh_6 (now serves 17)
+2026-07-25 10:19:52,279 cluster_route: reinsert pass 0 placed req 281 into veh_4 (now serves 16)
+2026-07-25 10:19:52,349 cluster_route: reinsert pass 0 placed req 283 into veh_9 (now serves 17)
+2026-07-25 10:19:52,401 cluster_route: reinsert pass 0 placed req 6 into veh_6 (now serves 18)
+2026-07-25 10:19:52,450 cluster_route: reinsert pass 0 placed req 7 into veh_7 (now serves 12)
+2026-07-25 10:19:52,481 cluster_route: reinsert pass 0 placed req 22 into veh_9 (now serves 18)
+2026-07-25 10:19:52,714 cluster_route: reinsert pass 0 placed req 25 into veh_1 (now serves 13)
+2026-07-25 10:19:52,864 cluster_route: reinsert pass 0 placed req 50 into veh_1 (now serves 14)
+2026-07-25 10:19:52,981 cluster_route: reinsert pass 0 placed req 53 into veh_5 (now serves 8)
+2026-07-25 10:19:53,014 cluster_route: reinsert pass 0 placed req 107 into veh_5 (now serves 9)
+2026-07-25 10:19:53,048 cluster_route: reinsert pass 0 placed req 121 into veh_6 (now serves 19)
+2026-07-25 10:19:53,098 cluster_route: reinsert pass 0 placed req 143 into veh_9 (now serves 19)
+2026-07-25 10:19:53,248 cluster_route: reinsert pass 0 placed req 157 into veh_7 (now serves 13)
+2026-07-25 10:19:53,398 cluster_route: reinsert pass 0 placed req 168 into veh_5 (now serves 10)
+2026-07-25 10:19:53,515 cluster_route: reinsert pass 0 placed req 207 into veh_7 (now serves 14)
+2026-07-25 10:19:53,547 cluster_route: reinsert pass 0 placed req 213 into veh_9 (now serves 20)
+2026-07-25 10:19:53,608 cluster_route: reinsert pass 0 placed req 233 into veh_9 (now serves 21)
+2026-07-25 10:19:53,965 cluster_route: reinsert pass 0 placed req 244 into veh_2 (now serves 13)
+2026-07-25 10:19:54,048 cluster_route: reinsert pass 0 placed req 10 into veh_8 (now serves 17)
+2026-07-25 10:19:54,124 cluster_route: reinsert pass 0 placed req 13 into veh_8 (now serves 18)
+2026-07-25 10:19:54,297 cluster_route: reinsert pass 0 placed req 29 into veh_9 (now serves 22)
+2026-07-25 10:19:54,415 cluster_route: reinsert pass 0 placed req 36 into veh_8 (now serves 19)
+2026-07-25 10:19:54,515 cluster_route: reinsert pass 0 placed req 43 into veh_2 (now serves 14)
+2026-07-25 10:19:54,532 cluster_route: reinsert pass 0 placed req 75 into veh_8 (now serves 20)
+2026-07-25 10:19:54,648 cluster_route: reinsert pass 0 placed req 90 into veh_9 (now serves 23)
+2026-07-25 10:19:54,699 cluster_route: reinsert pass 0 placed req 139 into veh_10 (now serves 11)
+2026-07-25 10:19:54,833 cluster_route: reinsert pass 0 placed req 148 into veh_10 (now serves 12)
+2026-07-25 10:19:54,916 cluster_route: reinsert pass 0 placed req 158 into veh_1 (now serves 15)
+2026-07-25 10:19:54,998 cluster_route: reinsert pass 0 placed req 160 into veh_1 (now serves 16)
+2026-07-25 10:19:55,032 cluster_route: reinsert pass 0 placed req 234 into veh_1 (now serves 17)
+2026-07-25 10:19:55,082 cluster_route: reinsert pass 0 placed req 252 into veh_9 (now serves 24)
+2026-07-25 10:19:55,172 cluster_route: reinsert pass 0 placed req 267 into veh_2 (now serves 15)
+2026-07-25 10:19:55,310 cluster_route: reinsert pass 0 placed req 273 into veh_2 (now serves 16)
+2026-07-25 10:19:55,400 cluster_route: reinsert pass 0 placed req 9 into veh_10 (now serves 13)
+2026-07-25 10:19:55,449 cluster_route: reinsert pass 0 placed req 23 into veh_10 (now serves 14)
+2026-07-25 10:19:55,550 cluster_route: reinsert pass 0 placed req 37 into veh_9 (now serves 25)
+2026-07-25 10:19:55,666 cluster_route: reinsert pass 0 placed req 49 into veh_1 (now serves 18)
+2026-07-25 10:19:55,750 cluster_route: reinsert pass 0 placed req 59 into veh_10 (now serves 15)
+2026-07-25 10:19:55,783 cluster_route: reinsert pass 0 placed req 77 into veh_7 (now serves 15)
+2026-07-25 10:19:56,034 cluster_route: reinsert pass 0 placed req 100 into veh_3 (now serves 12)
+2026-07-25 10:19:56,187 cluster_route: reinsert pass 0 placed req 126 into veh_9 (now serves 26)
+2026-07-25 10:19:56,284 cluster_route: reinsert pass 0 placed req 149 into veh_9 (now serves 27)
+2026-07-25 10:19:56,401 cluster_route: reinsert pass 0 placed req 152 into veh_10 (now serves 16)
+2026-07-25 10:19:56,567 cluster_route: reinsert pass 0 placed req 153 into veh_3 (now serves 13)
+2026-07-25 10:19:56,601 cluster_route: reinsert pass 0 placed req 161 into veh_9 (now serves 28)
+2026-07-25 10:19:56,671 cluster_route: reinsert pass 0 placed req 164 into veh_10 (now serves 17)
+2026-07-25 10:19:56,852 cluster_route: reinsert pass 0 placed req 196 into veh_4 (now serves 17)
+2026-07-25 10:19:57,001 cluster_route: reinsert pass 0 placed req 222 into veh_4 (now serves 18)
+2026-07-25 10:19:57,376 cluster_route: reinsert pass 0 placed req 243 into veh_8 (now serves 21)
+2026-07-25 10:19:57,386 cluster_route: reinsert pass 0 placed req 262 into veh_10 (now serves 18)
+2026-07-25 10:19:57,486 cluster_route: reinsert pass 0 placed req 297 into veh_3 (now serves 14)
+2026-07-25 10:19:57,519 cluster_route: reinsert pass 0 placed req 5 into veh_2 (now serves 17)
+2026-07-25 10:19:57,606 cluster_route: reinsert pass 0 placed req 31 into veh_1 (now serves 19)
+2026-07-25 10:19:57,719 cluster_route: reinsert pass 0 placed req 46 into veh_2 (now serves 18)
+2026-07-25 10:19:57,819 cluster_route: reinsert pass 0 placed req 142 into veh_2 (now serves 19)
+2026-07-25 10:19:58,053 cluster_route: reinsert pass 0 placed req 146 into veh_7 (now serves 16)
+2026-07-25 10:19:58,153 cluster_route: reinsert pass 0 placed req 150 into veh_1 (now serves 20)
+2026-07-25 10:19:58,224 cluster_route: reinsert pass 0 placed req 186 into veh_1 (now serves 21)
+2026-07-25 10:19:58,254 cluster_route: reinsert pass 0 placed req 219 into veh_3 (now serves 15)
+2026-07-25 10:19:58,404 cluster_route: reinsert pass 0 placed req 241 into veh_7 (now serves 17)
+2026-07-25 10:19:58,603 cluster_route: reinsert pass 0 placed req 257 into veh_8 (now serves 22)
+2026-07-25 10:19:58,620 cluster_route: reinsert pass 0 placed req 282 into veh_9 (now serves 29)
+2026-07-25 10:19:58,739 cluster_route: reinsert pass 0 placed req 286 into veh_7 (now serves 18)
+2026-07-25 10:19:58,789 cluster_route: reinsert pass 0 placed req 287 into veh_2 (now serves 20)
+2026-07-25 10:19:58,953 cluster_route: reinsert pass 0 placed req 48 into veh_9 (now serves 30)
+2026-07-25 10:19:59,070 cluster_route: reinsert pass 0 placed req 64 into veh_6 (now serves 20)
+2026-07-25 10:19:59,187 cluster_route: reinsert pass 0 placed req 82 into veh_5 (now serves 11)
+2026-07-25 10:19:59,237 cluster_route: reinsert pass 0 placed req 88 into veh_5 (now serves 12)
+2026-07-25 10:19:59,289 cluster_route: reinsert pass 0 placed req 95 into veh_6 (now serves 21)
+2026-07-25 10:19:59,387 cluster_route: reinsert pass 0 placed req 99 into veh_2 (now serves 21)
+2026-07-25 10:19:59,454 cluster_route: reinsert pass 0 placed req 106 into veh_9 (now serves 31)
+2026-07-25 10:19:59,637 cluster_route: reinsert pass 0 placed req 145 into veh_10 (now serves 19)
+2026-07-25 10:19:59,704 cluster_route: reinsert pass 0 placed req 169 into veh_9 (now serves 32)
+2026-07-25 10:19:59,775 cluster_route: reinsert pass 0 placed req 203 into veh_1 (now serves 22)
+2026-07-25 10:19:59,855 cluster_route: reinsert pass 0 placed req 240 into veh_2 (now serves 22)
+2026-07-25 10:19:59,921 cluster_route: reinsert pass 0 placed req 253 into veh_1 (now serves 23)
+2026-07-25 10:20:00,071 cluster_route: reinsert pass 0 placed req 293 into veh_4 (now serves 19)
+2026-07-25 10:20:00,120 cluster_route: reinsert pass 0 placed req 16 into veh_2 (now serves 23)
+2026-07-25 10:20:00,220 cluster_route: reinsert pass 0 placed req 18 into veh_4 (now serves 20)
+2026-07-25 10:20:00,260 cluster_route: reinsert pass 0 placed req 60 into veh_9 (now serves 33)
+2026-07-25 10:20:00,338 cluster_route: reinsert pass 0 placed req 69 into veh_1 (now serves 24)
+2026-07-25 10:20:00,476 cluster_route: reinsert pass 0 placed req 115 into veh_9 (now serves 34)
+2026-07-25 10:20:00,639 cluster_route: reinsert pass 0 placed req 117 into veh_6 (now serves 22)
+2026-07-25 10:20:00,689 cluster_route: reinsert pass 0 placed req 132 into veh_2 (now serves 24)
+2026-07-25 10:20:00,742 cluster_route: reinsert pass 0 placed req 138 into veh_2 (now serves 25)
+2026-07-25 10:20:00,840 cluster_route: reinsert pass 0 placed req 183 into veh_3 (now serves 16)
+2026-07-25 10:20:00,987 cluster_route: reinsert pass 0 placed req 185 into veh_10 (now serves 20)
+2026-07-25 10:20:01,022 cluster_route: reinsert pass 0 placed req 201 into veh_9 (now serves 35)
+2026-07-25 10:20:01,356 cluster_route: reinsert pass 0 placed req 221 into veh_5 (now serves 13)
+2026-07-25 10:20:01,540 cluster_route: reinsert pass 0 placed req 223 into veh_5 (now serves 14)
+2026-07-25 10:20:01,574 cluster_route: reinsert pass 0 placed req 270 into veh_9 (now serves 36)
+2026-07-25 10:20:01,656 cluster_route: reinsert pass 0 placed req 15 into veh_7 (now serves 19)
+2026-07-25 10:20:01,710 cluster_route: reinsert pass 0 placed req 26 into veh_7 (now serves 20)
+2026-07-25 10:20:01,773 cluster_route: reinsert pass 0 placed req 52 into veh_1 (now serves 25)
+2026-07-25 10:20:01,807 cluster_route: reinsert pass 0 placed req 65 into veh_5 (now serves 15)
+2026-07-25 10:20:01,874 cluster_route: reinsert pass 0 placed req 92 into veh_1 (now serves 26)
+2026-07-25 10:20:02,090 cluster_route: reinsert pass 0 placed req 109 into veh_10 (now serves 21)
+2026-07-25 10:20:02,160 cluster_route: reinsert pass 0 placed req 120 into veh_2 (now serves 26)
+2026-07-25 10:20:02,274 cluster_route: reinsert pass 0 placed req 184 into veh_3 (now serves 17)
+2026-07-25 10:20:02,311 cluster_route: reinsert pass 0 placed req 195 into veh_6 (now serves 23)
+2026-07-25 10:20:02,374 cluster_route: reinsert pass 0 placed req 208 into veh_6 (now serves 24)
+2026-07-25 10:20:02,575 cluster_route: reinsert pass 0 placed req 247 into veh_10 (now serves 22)
+2026-07-25 10:20:02,611 cluster_route: reinsert pass 0 placed req 295 into veh_5 (now serves 16)
+2026-07-25 10:20:02,661 cluster_route: reinsert pass 0 placed req 12 into veh_7 (now serves 21)
+2026-07-25 10:20:02,692 cluster_route: reinsert pass 0 placed req 35 into veh_9 (now serves 37)
+2026-07-25 10:20:02,775 cluster_route: reinsert pass 0 placed req 55 into veh_4 (now serves 21)
+2026-07-25 10:20:02,862 cluster_route: reinsert pass 0 placed req 74 into veh_4 (now serves 22)
+2026-07-25 10:20:03,012 cluster_route: reinsert pass 0 placed req 98 into veh_4 (now serves 23)
+2026-07-25 10:20:03,075 cluster_route: reinsert pass 0 placed req 103 into veh_4 (now serves 24)
+2026-07-25 10:20:03,226 cluster_route: reinsert pass 0 placed req 104 into veh_8 (now serves 23)
+2026-07-25 10:20:03,343 cluster_route: reinsert pass 0 placed req 119 into veh_1 (now serves 27)
+2026-07-25 10:20:03,459 cluster_route: reinsert pass 0 placed req 151 into veh_9 (now serves 38)
+2026-07-25 10:20:03,510 cluster_route: reinsert pass 0 placed req 187 into veh_5 (now serves 17)
+2026-07-25 10:20:03,591 cluster_route: reinsert pass 0 placed req 205 into veh_1 (now serves 28)
+2026-07-25 10:20:03,658 cluster_route: reinsert pass 0 placed req 211 into veh_5 (now serves 18)
+2026-07-25 10:20:03,695 cluster_route: reinsert pass 0 placed req 261 into veh_5 (now serves 19)
+2026-07-25 10:20:03,745 cluster_route: reinsert pass 0 placed req 279 into veh_9 (now serves 39)
+2026-07-25 10:20:03,815 cluster_route: reinsert pass 0 placed req 289 into veh_8 (now serves 24)
+
+=== CLUSTER-ROUTE RESULT R=300, wall=44.51s ===
+served (244): [1, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 25, 26, 27, 28, 29, 30, 31, 32, 35, 36, 37, 38, 39, 40, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 55, 56, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 71, 73, 74, 75, 77, 78, 79, 82, 83, 84, 85, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 115, 116, 117, 118, 119, 120, 121, 124, 125, 126, 128, 129, 130, 132, 133, 134, 136, 137, 138, 139, 140, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 156, 157, 158, 159, 160, 161, 162, 163, 164, 167, 168, 169, 170, 171, 173, 175, 176, 177, 178, 180, 183, 184, 185, 186, 187, 190, 191, 192, 193, 195, 196, 197, 199, 200, 201, 202, 203, 204, 205, 207, 208, 210, 211, 212, 213, 216, 217, 218, 219, 220, 221, 222, 223, 227, 228, 229, 230, 231, 233, 234, 236, 237, 238, 239, 240, 241, 242, 243, 244, 246, 247, 248, 249, 250, 251, 252, 253, 254, 256, 257, 259, 261, 262, 263, 264, 267, 268, 270, 272, 273, 274, 275, 276, 277, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 292, 293, 294, 295, 296, 297, 298, 299]
+unserved_feasible (3): [172, 226, 291] [placeable but not placed - NOT a proof of infeasibility]
+proven_infeasible (53): [2, 3, 11, 24, 33, 34, 41, 54, 57, 58, 70, 72, 76, 80, 81, 86, 102, 114, 122, 123, 127, 131, 135, 141, 155, 165, 166, 174, 179, 181, 182, 188, 189, 194, 198, 206, 209, 214, 215, 224, 225, 232, 235, 245, 255, 258, 260, 265, 266, 269, 271, 278, 300] [solo search exhausted, no route for any identical vehicle]
+undetermined (0): [] [solo search hit budget - status unknown, NOT a proof]
+
+per-vehicle:
+  veh_1: served=(4, 25, 30, 31, 32, 42, 49, 50, 52, 62, 69, 92, 119, 150, 158, 160, 170, 177, 178, 186, 191, 192, 203, 205, 234, 253, 294, 299) cost=252.329 arcs=277
+  veh_2: served=(5, 8, 16, 27, 43, 44, 46, 63, 99, 108, 120, 128, 132, 138, 140, 142, 176, 190, 229, 240, 244, 256, 263, 267, 273, 287) cost=194.151 arcs=208
+  veh_3: served=(39, 89, 94, 100, 111, 153, 180, 183, 184, 212, 218, 219, 236, 251, 264, 290, 297) cost=146.464 arcs=159
+  veh_4: served=(18, 20, 45, 55, 74, 91, 98, 103, 112, 137, 156, 163, 193, 196, 199, 222, 242, 246, 254, 272, 280, 281, 293, 298) cost=187.834 arcs=210
+  veh_5: served=(51, 53, 65, 82, 88, 101, 105, 107, 124, 136, 168, 187, 211, 221, 223, 261, 277, 292, 295) cost=185.181 arcs=189
+  veh_6: served=(6, 14, 17, 21, 64, 68, 71, 95, 96, 97, 117, 121, 130, 133, 144, 195, 208, 220, 227, 238, 239, 249, 250, 285) cost=170.580 arcs=188
+  veh_7: served=(7, 12, 15, 26, 38, 56, 77, 85, 146, 157, 159, 197, 204, 207, 216, 241, 248, 259, 286, 288, 296) cost=214.788 arcs=220
+  veh_8: served=(10, 13, 36, 47, 67, 73, 75, 83, 87, 93, 104, 110, 113, 125, 173, 217, 228, 231, 243, 257, 268, 274, 284, 289) cost=200.686 arcs=215
+  veh_9: served=(1, 19, 22, 29, 35, 37, 40, 48, 60, 61, 66, 79, 84, 90, 106, 115, 116, 126, 129, 134, 143, 147, 149, 151, 161, 169, 171, 201, 202, 210, 213, 230, 233, 252, 270, 276, 279, 282, 283) cost=282.929 arcs=308
+  veh_10: served=(9, 23, 28, 59, 78, 109, 118, 139, 145, 148, 152, 154, 162, 164, 167, 175, 185, 200, 237, 247, 262, 275) cost=206.637 arcs=210
+
+=== INDEPENDENT CHECKER (R=300) ===
+checker_full_summary_first_line: FEASIBILITY: FAIL
+STRUCTURAL violations (energy/precedence/path/subtour): 0
+coverage violations (served by NO vehicle): 56
+CHECKER_COVERAGE: 244/300 requests served
+CHECKER_STRUCTURAL_PASS: True
+COVERAGE_VS_FEASIBLE_CEILING: 244/247 (ceiling excludes 53 proven-infeasible)
+FULL_FEASIBLE_COVERAGE_MODULO_PROVEN_INFEASIBLE: False

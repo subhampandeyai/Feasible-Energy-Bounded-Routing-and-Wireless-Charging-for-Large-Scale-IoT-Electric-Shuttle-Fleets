@@ -1,0 +1,17 @@
+parameter,value
+region_size_km,60.0
+battery_capacity_kWh,30.0
+max_mileage_km,260.0
+small_allowable_kWh,5.0
+medium_allowable_kWh,15.0
+large_allowable_kWh,20.0
+charging_efficiency,0.9
+epsilon1,0.3333333333333333
+epsilon2,0.3333333333333333
+epsilon3,0.3333333333333333
+BigM,1000.0
+price_min,0.5
+price_max,1.0
+num_vehicles,10.0
+num_requests_max,300.0
+road_graph_k_neighbors,5.0

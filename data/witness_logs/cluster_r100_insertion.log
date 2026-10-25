@@ -1,0 +1,72 @@
+﻿Loading R=100...
+vehicles=10 requests=100 nodes=602 arcs=3632
+loaded precomputed solo: 84 feasible, infeasible=[2, 3, 11, 24, 33, 34, 41, 54, 57, 58, 70, 72, 76, 80, 81, 86], undetermined=[]
+2026-07-25 10:11:15,477 cluster_route: solo scan done: 84 feasible, 16 proven-infeasible=[2, 3, 11, 24, 33, 34, 41, 54, 57, 58, 70, 72, 76, 80, 81, 86], 0 undetermined=[]
+2026-07-25 10:11:15,509 cluster_route: 84 placeable requests -> cluster sizes [6, 9, 9, 9, 9, 9, 7, 9, 8, 9] (engine=insertion)
+2026-07-25 10:11:17,295 cluster_route: veh_1 insertion-routed cluster of 6 -> served=5 [1, 26, 52, 65, 96], dropped=[92]
+2026-07-25 10:11:18,729 cluster_route: veh_2 insertion-routed cluster of 9 -> served=6 [21, 27, 44, 83, 84, 97], dropped=[17, 19, 30]
+2026-07-25 10:11:20,697 cluster_route: veh_3 insertion-routed cluster of 9 -> served=5 [6, 7, 22, 50, 89], dropped=[25, 39, 53, 94]
+2026-07-25 10:11:22,667 cluster_route: veh_4 insertion-routed cluster of 9 -> served=4 [16, 18, 42, 60], dropped=[43, 69, 73, 87, 90]
+2026-07-25 10:11:23,751 cluster_route: veh_5 insertion-routed cluster of 9 -> served=5 [23, 28, 51, 74, 78], dropped=[9, 12, 35, 98]
+2026-07-25 10:11:25,922 cluster_route: veh_6 insertion-routed cluster of 9 -> served=6 [5, 46, 47, 68, 71, 79], dropped=[15, 31, 63]
+2026-07-25 10:11:27,454 cluster_route: veh_7 insertion-routed cluster of 7 -> served=5 [40, 82, 88, 95, 99], dropped=[38, 64]
+2026-07-25 10:11:30,042 cluster_route: veh_8 insertion-routed cluster of 9 -> served=7 [4, 10, 13, 20, 45, 75, 85], dropped=[29, 36]
+2026-07-25 10:11:32,279 cluster_route: veh_9 insertion-routed cluster of 8 -> served=6 [37, 48, 55, 56, 59, 100], dropped=[49, 77]
+2026-07-25 10:11:34,114 cluster_route: veh_10 insertion-routed cluster of 9 -> served=5 [14, 32, 61, 67, 93], dropped=[8, 62, 66, 91]
+2026-07-25 10:11:39,587 cluster_route: reinsert pass 0 placed req 92 into veh_9 (now serves 7)
+2026-07-25 10:11:43,925 cluster_route: reinsert pass 0 placed req 17 into veh_10 (now serves 6)
+2026-07-25 10:11:56,621 cluster_route: reinsert pass 0 placed req 19 into veh_8 (now serves 8)
+2026-07-25 10:12:00,982 cluster_route: reinsert pass 0 placed req 30 into veh_6 (now serves 7)
+2026-07-25 10:12:25,638 cluster_route: reinsert pass 0 placed req 25 into veh_8 (now serves 9)
+2026-07-25 10:12:28,146 cluster_route: reinsert pass 0 placed req 39 into veh_7 (now serves 6)
+2026-07-25 10:12:53,086 cluster_route: reinsert pass 0 placed req 53 into veh_8 (now serves 10)
+2026-07-25 10:12:55,991 cluster_route: reinsert pass 0 placed req 94 into veh_7 (now serves 7)
+2026-07-25 10:13:03,614 cluster_route: reinsert pass 0 placed req 43 into veh_10 (now serves 7)
+2026-07-25 10:13:08,997 cluster_route: reinsert pass 0 placed req 69 into veh_8 (now serves 11)
+2026-07-25 10:13:14,556 cluster_route: reinsert pass 0 placed req 73 into veh_8 (now serves 12)
+2026-07-25 10:13:24,384 cluster_route: reinsert pass 0 placed req 87 into veh_1 (now serves 6)
+2026-07-25 10:13:34,477 cluster_route: reinsert pass 0 placed req 90 into veh_1 (now serves 7)
+2026-07-25 10:13:37,704 cluster_route: reinsert pass 0 placed req 9 into veh_9 (now serves 8)
+2026-07-25 10:13:46,877 cluster_route: reinsert pass 0 placed req 12 into veh_1 (now serves 8)
+2026-07-25 10:14:02,010 cluster_route: reinsert pass 0 placed req 35 into veh_8 (now serves 13)
+2026-07-25 10:14:08,882 cluster_route: reinsert pass 0 placed req 98 into veh_1 (now serves 9)
+2026-07-25 10:14:20,994 cluster_route: reinsert pass 0 placed req 15 into veh_1 (now serves 10)
+2026-07-25 10:14:34,000 cluster_route: reinsert pass 0 placed req 31 into veh_1 (now serves 11)
+2026-07-25 10:14:45,778 cluster_route: reinsert pass 0 placed req 63 into veh_1 (now serves 12)
+2026-07-25 10:14:53,685 cluster_route: reinsert pass 0 placed req 38 into veh_1 (now serves 13)
+2026-07-25 10:14:58,081 cluster_route: reinsert pass 0 placed req 64 into veh_9 (now serves 9)
+2026-07-25 10:15:16,150 cluster_route: reinsert pass 0 placed req 29 into veh_5 (now serves 6)
+2026-07-25 10:15:23,228 cluster_route: reinsert pass 0 placed req 36 into veh_4 (now serves 5)
+2026-07-25 10:15:38,291 cluster_route: reinsert pass 0 placed req 49 into veh_8 (now serves 14)
+2026-07-25 10:15:58,112 cluster_route: reinsert pass 0 placed req 77 into veh_8 (now serves 15)
+2026-07-25 10:16:22,011 cluster_route: reinsert pass 0 placed req 8 into veh_9 (now serves 10)
+2026-07-25 10:16:40,756 cluster_route: reinsert pass 0 placed req 62 into veh_8 (now serves 16)
+2026-07-25 10:16:51,419 cluster_route: reinsert pass 0 placed req 66 into veh_1 (now serves 14)
+2026-07-25 10:17:25,187 cluster_route: reinsert pass 0 placed req 91 into veh_9 (now serves 11)
+
+=== CLUSTER-ROUTE RESULT R=100, wall=369.71s ===
+served (84): [1, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 25, 26, 27, 28, 29, 30, 31, 32, 35, 36, 37, 38, 39, 40, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 55, 56, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 71, 73, 74, 75, 77, 78, 79, 82, 83, 84, 85, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+unserved_feasible (0): [] [placeable but not placed - NOT a proof of infeasibility]
+proven_infeasible (16): [2, 3, 11, 24, 33, 34, 41, 54, 57, 58, 70, 72, 76, 80, 81, 86] [solo search exhausted, no route for any identical vehicle]
+undetermined (0): [] [solo search hit budget - status unknown, NOT a proof]
+
+per-vehicle:
+  veh_1: served=(1, 12, 15, 26, 31, 38, 52, 63, 65, 66, 87, 90, 96, 98) cost=137.989 arcs=158
+  veh_2: served=(21, 27, 44, 83, 84, 97) cost=55.726 arcs=64
+  veh_3: served=(6, 7, 22, 50, 89) cost=51.681 arcs=54
+  veh_4: served=(16, 18, 36, 42, 60) cost=61.598 arcs=72
+  veh_5: served=(23, 28, 29, 51, 74, 78) cost=94.649 arcs=97
+  veh_6: served=(5, 30, 46, 47, 68, 71, 79) cost=89.835 arcs=95
+  veh_7: served=(39, 40, 82, 88, 94, 95, 99) cost=76.774 arcs=85
+  veh_8: served=(4, 10, 13, 19, 20, 25, 35, 45, 49, 53, 62, 69, 73, 75, 77, 85) cost=192.702 arcs=204
+  veh_9: served=(8, 9, 37, 48, 55, 56, 59, 64, 91, 92, 100) cost=77.920 arcs=95
+  veh_10: served=(14, 17, 32, 43, 61, 67, 93) cost=78.465 arcs=86
+
+=== INDEPENDENT CHECKER (R=100) ===
+checker_full_summary_first_line: FEASIBILITY: FAIL
+STRUCTURAL violations (energy/precedence/path/subtour): 0
+coverage violations (served by NO vehicle): 16
+CHECKER_COVERAGE: 84/100 requests served
+CHECKER_STRUCTURAL_PASS: True
+COVERAGE_VS_FEASIBLE_CEILING: 84/84 (ceiling excludes 16 proven-infeasible)
+FULL_FEASIBLE_COVERAGE_MODULO_PROVEN_INFEASIBLE: True
