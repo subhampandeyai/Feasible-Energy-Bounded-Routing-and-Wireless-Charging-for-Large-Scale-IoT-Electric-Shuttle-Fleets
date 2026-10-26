@@ -1,4 +1,4 @@
-# Feasible Energy-Bounded Routing and Wireless Charging
+# Feasible Energy-Bounded Routing and Wireless Charging for Large Scale IoT Electric Shuttle Fleets
 
 A Python solver for routing and charging a fleet of electric vehicles that serve
 pickup-and-delivery requests on a road network with dynamic wireless charging.
